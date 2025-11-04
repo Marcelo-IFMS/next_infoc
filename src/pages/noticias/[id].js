@@ -10,7 +10,7 @@ export default function Cardcomponent({ noticias }) {
         <Container>
             <Row xs={1} md={3} className="pt-2 g-4">
                 {
-                    <Cards idnoticia={noticias.idnoticia}
+                    <Cards idnoticia={noticias._id}
                         titulonoticia={noticias.titulonoticia}
                         conteudonoticia={noticias.conteudonoticia}
                         tiponoticia={noticias.tiponoticia}

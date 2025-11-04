@@ -2,9 +2,9 @@ import { Card, Col } from "react-bootstrap";
 
 export default function Cards(noticia){
     return <>
-        <Col key={noticia.idnoticia}>
+        <Col key={noticia._id}>
             <Card>
-                <Card.Header className="text-center fw-bold"><a href={`/noticias/${noticia.idnoticia}`}> {noticia.titulonoticia}</a></Card.Header>
+                <Card.Header className="text-center fw-bold"><a href={`/noticias/${noticia._id}`}> {noticia.titulonoticia}</a></Card.Header>
                 <Card.Body>
                     <Card.Title className="text-capitalize">
                         <a href={`/noticias/tipo/${noticia.tiponoticia}`}>

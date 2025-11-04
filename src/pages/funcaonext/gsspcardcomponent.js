@@ -7,8 +7,8 @@ export default function Gsspcomponentcard({ produtos }) {
             <Container>
                 <Row xs={1} md={3} className="g-4 pt-2">
                     {produtos.map(noticia =>
-                        <Col key={noticia.idnoticia}>
-                            <Cards idnoticia={noticia.idnoticia}
+                        <Col key={noticia._id}>
+                            <Cards idnoticia={noticia._id}
                                 titulonoticia={noticia.titulonoticia}
                                 tiponoticia={noticia.tiponoticia}
                                 conteudonoticia={noticia.conteudonoticia}

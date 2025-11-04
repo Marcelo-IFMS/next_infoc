@@ -9,7 +9,7 @@ export default function Gssp({ repo }) {
             <Row xs={1} md={3} className="pt-2 g-4">
                 {Array.isArray(noticias) ?
                     noticias.map(abobrinha =>  //{ abobrinha.idnoticia }
-                        <Col key={abobrinha.idnoticia}>
+                        <Col key={abobrinha._id}>
                             <Card>
                                 <Card.Header className="text-center fw-bold"> {abobrinha.titulonoticia}</Card.Header>
                                 <Card.Body>

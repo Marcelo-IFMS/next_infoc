@@ -25,7 +25,7 @@ export default function Gssp({ repo }) {
                         {Array.isArray(noticias) ?
                             noticias.map(abobrinha =>
                                 <tr>
-                                    <td>{abobrinha.idnoticia}</td>
+                                    <td>{abobrinha._id}</td>
                                     <td>{abobrinha.titulonoticia}</td>
                                     <td>{abobrinha.conteudonoticia}</td>
                                     <td>{abobrinha.tiponoticia}</td>
