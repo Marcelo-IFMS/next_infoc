@@ -6,6 +6,7 @@ export async function getServerSideProps(context) {
     return { props: { noticias: repo } }
 }
 export default function Cardcomponent({ noticias }) {
+    console.log(noticias)
     return <>
         <Container>
             <Row xs={1} md={3} className="pt-2 g-4">
